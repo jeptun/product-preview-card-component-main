@@ -51,11 +51,11 @@ body .card-container {
     display: block;
     padding-top: 2rem;
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(12px, 1.3rem, 1.4rem);
+    font-size: clamp(10px, 1.2rem, 1.3rem);
     line-height: clamp(16px, 1.8rem, 2rem);
     font-weight: 500;
     letter-spacing: 4px;
-    color: red;
+    color: hsl(228deg, 12%, 48%);
     text-transform: uppercase;
   }
   .card-title {
