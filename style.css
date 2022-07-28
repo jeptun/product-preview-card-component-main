@@ -73,9 +73,9 @@ body .card-container {
   }
   .card-info {
     color: hsl(228deg, 12%, 48%);
-    font-size: clamp(12px, 1.4rem, 1.6rem);
+    font-size: clamp(12px, 1.3rem, 1.6rem);
     font-weight: 500;
-    line-height: clamp(18px, 2rem, 2.2rem);
+    line-height: clamp(18px, 2.4rem, 2.6rem);
     word-spacing: 0.2rem;
     padding-bottom: 2rem;
   }
@@ -143,8 +143,8 @@ body .card-container {
 }
 @media (min-width: 1440px) {
   .card {
-    width: 55rem;
-    height: 100%;
+    width: 60rem;
+    height: 45rem;
     background-color: hsl(0deg, 0%, 100%);
     border-radius: 12px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -159,6 +159,7 @@ body .card-container {
     background-size: cover;
   }
   .card .card-body {
+    padding: 2rem 2.6rem 2rem 2.4rem;
     border-top-right-radius: 12px;
   }
   .card picture > * {
@@ -178,13 +179,13 @@ body .card-container {
   }
   .card .card-btn span {
     top: 1.4rem;
-    left: 8rem;
+    left: 10rem;
   }
   .card .card-btn:before {
     content: "";
     position: absolute;
     display: inline-block;
     top: 1.5rem;
-    left: 6rem;
+    left: 7.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
