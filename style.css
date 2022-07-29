@@ -36,7 +36,7 @@ body .card-container {
     border-radius: 12px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
-  .card picture > * {
+  .card img {
     width: 100%;
     height: auto;
     -o-object-fit: cover;
@@ -45,6 +45,12 @@ body .card-container {
     border-top-right-radius: 12px;
     background-color: rgb(82, 78, 78);
     border: 0;
+  }
+  .card .img-mobile {
+    display: block;
+  }
+  .card .img-desktop {
+    display: none;
   }
   .card-body {
     background-color: hsl(0deg, 0%, 100%);
@@ -152,18 +158,8 @@ body .card-container {
     grid-template-columns: 1fr 1fr;
     border-top-right-radius: 12px;
   }
-  .card picture {
-    max-width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .card .card-body {
-    padding: 2rem 2.6rem 2rem 2.4rem;
-    border-top-right-radius: 12px;
-  }
-  .card picture > * {
-    max-width: 100%;
+  .card img {
+    width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -174,14 +170,24 @@ body .card-container {
   .card source {
     display: none;
   }
-  .card .card-items-prices {
+  .card .img-mobile {
+    display: none;
+  }
+  .card .img-desktop {
+    display: block;
+  }
+  .card-body {
+    padding: 2rem 2.6rem 2rem 2.4rem;
+    border-top-right-radius: 12px;
+  }
+  .card-items-prices {
     margin-top: 2rem;
   }
-  .card .card-btn span {
+  .card-btn span {
     top: 1.4rem;
     left: 10rem;
   }
-  .card .card-btn:before {
+  .card-btn:before {
     content: "";
     position: absolute;
     display: inline-block;
